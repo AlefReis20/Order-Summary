@@ -8,19 +8,24 @@
 
   body {
     background: #e0e8ff;
+    justify-content: center; /*Other Solution*/
+    align-items: center; /*Other Solution*/
+    display: flex; /*Other Solution*/
+    height: 100vh; /*Other Solution*/
   }
 
+  
   .wrapper{
-    width: 100vw; 
-    height: 100vh;
     background: url("images/pattern-background-desktop.svg") no-repeat;
   }
 
+  /*
   .container {
     margin-top: 50px;
     margin-left: 35vw;
     position: absolute;
   }
+  */
 
   .nav, .img-1 {
     background: #FFF;
